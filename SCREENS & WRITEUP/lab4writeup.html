@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,700,400' rel='stylesheet' type='text/css'>
+
+  <meta charset="UTF-8"/>
+  <meta name = "description"  content = "CMPSC 457 Lab #1 Writeup" />
+  <meta name = "keywords"     content = "Matthew, Panetta, Lab, CMPSC457, OpenGL, house, 2D"/>
+  <meta name = "robots"       content = "index,follow"/>
+
+  <base href = "http://65.185.85.1/"/>
+
+  <link rel = "stylesheet" href = "styles.css"/>
+
+  <title>CMPSC 457 Lab #2 Writeup</title>
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <header>
+      <h1>CMPSC 457 Lab #4</h1>
+      <h2>By: Matthew Panetta</h2>
+    </header>
+
+    <main id="content">
+      <div id="labInfo">
+        <h3>Instructions</h3>
+        <img class="sidePicture" alt="OpenGL drawing of a robot" src="robotStill.PNG" />
+        <img class="sidePicture" alt="OpenGL drawing of a robot" src="robotMoving.png" />
+        <div id="directions">
+          In this lab I needed to:
+          <ul id="objectives">
+            <li>Draw a 3D object</li>
+            <li>Use at least six sub-objects</li>
+            <li>Modify the object's animation</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="implement-wrapper">
+
+
+        <h3>My Implementation</h3>
+
+        <div id="implementations">
+          <ul id="info">
+            <li>I made a robot. The robot starts walking if 'a' is pressed.</li>
+            <li>The robot is made up of 2 wire spheres (eyes), 2 wire cubes (teeth), and 6 solid cubes. (everything else)</li>
+            <li>When 'a' is pressed, the robot will move its arms and legs to simulate walking.</li>
+            <li>This utilizes a rotate variable. Once the variable gets to a certain value, it reverses direction.</li>
+            <li>The robot will stay in place during the animation.</li>
+            <li>The robot can be moved and rotated when not in animation mode (like the car)</li>
+          </ul>
+        </div>
+
+      <div id="code">
+        <h3>Source Code</h3>
+        <p id="sourceCode">
+          The source code is available on:
+          <a href="https://github.com/mp755/CMPSC457_Lab2">Github</a>
+          <br>Or, here is the
+          <a href="https://github.com/mp755/CMPSC457_Lab2/blob/master/Lab2/Source.cpp">
+            Source.cpp</a> file on GitHub.
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>
+
+  </html>
